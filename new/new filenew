@@ -161,3 +161,16 @@ CREATE UNIQUE INDEX XPKqweqwee ON aaddaad
 
 ALTER TABLE aaddaad
 ADD CONSTRAINT  XPKqweqwee PRIMARY KEY (a);
+
+
+CREATE TABLE aaddaad
+(
+	a                    CHAR(18)  NOT NULL ,
+	c                    CHAR(18)  NULL 
+);
+
+CREATE UNIQUE INDEX XPKqweqwee ON aaddaad
+(a   ASC);
+
+ALTER TABLE aaddaad
+ADD CONSTRAINT  XPKqweqwee PRIMARY KEY (a);
