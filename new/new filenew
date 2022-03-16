@@ -135,3 +135,16 @@ ALTER TABLE E_830
 /
 
 
+
+
+CREATE TABLE E_83
+(
+	a                    CHAR(18)  NOT NULL ,
+	c                    CHAR(18)  NULL 
+);
+
+CREATE UNIQUE INDEX XPKE_830 ON E_830
+(a   ASC);
+
+ALTER TABLE E_830
+ADD CONSTRAINT  XPKE_830 PRIMARY KEY (a);
