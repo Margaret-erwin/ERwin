@@ -20,3 +20,12 @@ go
 ALTER TABLE [E_2]
 	ADD CONSTRAINT [XPKE_2] PRIMARY KEY  CLUSTERED ([c] ASC)
 go
+
+
+ALTER TABLE [E_2]
+ADD [e]  char(18)  NULL
+go
+
+ALTER TABLE [E_2]
+ADD [f]  char(18)  NULL
+go
